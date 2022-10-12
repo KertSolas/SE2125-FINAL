@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <input id="sulod">
+        <input id="sulod2">
+        <button onclick="test()">test</button>
+        <ul>
+            <li>Car</li>
+            <li>Bike</li>
+            <li>Cycle</li>
+        </ul>
+        <script>
+            var sulod = document.querySelector("#sulod")
+            var sulod2 = document.querySelector("#sulod2")
+            function test() {
+                var sulodFinal = `${sulod.value} ${sulod2.value}`
+                var node = document.createElement('li');
+                node.appendChild(document.createTextNode(sulodFinal));
+                document.querySelector('ul').appendChild(node);
+            }
+            
+        </script>
+    </body>
+</html>

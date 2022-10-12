@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-group {
+    width: 15rem;
+}
+
+#addButton {
+    margin-left: 77%;
+}
+
+ 
